@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B66874B12C236FED004311FE /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66874B02C236FED004311FE /* Activities.swift */; };
 		B6D8CE452C236AA9003CA94E /* habit_trackingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8CE442C236AA9003CA94E /* habit_trackingAppApp.swift */; };
 		B6D8CE472C236AA9003CA94E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8CE462C236AA9003CA94E /* ContentView.swift */; };
 		B6D8CE492C236AB1003CA94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D8CE482C236AB1003CA94E /* Assets.xcassets */; };
 		B6D8CE4C2C236AB1003CA94E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D8CE4B2C236AB1003CA94E /* Preview Assets.xcassets */; };
+		B6D8CE532C236CA1003CA94E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8CE522C236CA1003CA94E /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B66874B02C236FED004311FE /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
 		B6D8CE412C236AA9003CA94E /* habit-trackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "habit-trackingApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D8CE442C236AA9003CA94E /* habit_trackingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_trackingAppApp.swift; sourceTree = "<group>"; };
 		B6D8CE462C236AA9003CA94E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6D8CE482C236AB1003CA94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D8CE4B2C236AB1003CA94E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6D8CE522C236CA1003CA94E /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B6D8CE442C236AA9003CA94E /* habit_trackingAppApp.swift */,
 				B6D8CE462C236AA9003CA94E /* ContentView.swift */,
+				B6D8CE522C236CA1003CA94E /* Activity.swift */,
+				B66874B02C236FED004311FE /* Activities.swift */,
 				B6D8CE482C236AB1003CA94E /* Assets.xcassets */,
 				B6D8CE4A2C236AB1003CA94E /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66874B12C236FED004311FE /* Activities.swift in Sources */,
 				B6D8CE472C236AA9003CA94E /* ContentView.swift in Sources */,
 				B6D8CE452C236AA9003CA94E /* habit_trackingAppApp.swift in Sources */,
+				B6D8CE532C236CA1003CA94E /* Activity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
