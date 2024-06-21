@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct ItemsCount: Codable {
+    let activityCount: Int
+    let tagCount: Int
+}

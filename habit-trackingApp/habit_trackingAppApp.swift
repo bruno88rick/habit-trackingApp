@@ -5,6 +5,7 @@
 //  Created by Bruno Oliveira on 19/06/24.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +14,6 @@ struct habit_trackingAppApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Activity.self)
     }
 }

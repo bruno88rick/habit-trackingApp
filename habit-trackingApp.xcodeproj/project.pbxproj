@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B66874B12C236FED004311FE /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66874B02C236FED004311FE /* Activities.swift */; };
+		B609A19D2C25BF71004AB8D2 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A19C2C25BF71004AB8D2 /* Tag.swift */; };
+		B609A1A12C25EE26004AB8D2 /* ItemsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A1A02C25EE26004AB8D2 /* ItemsCount.swift */; };
+		B609A1A42C25EEB2004AB8D2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A1A32C25EEB2004AB8D2 /* Extension.swift */; };
+		B609A1A62C25EF57004AB8D2 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A1A52C25EF57004AB8D2 /* RoundedCorners.swift */; };
+		B609A1A82C25F38E004AB8D2 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A1A72C25F38E004AB8D2 /* AppData.swift */; };
+		B609A1AA2C25F50B004AB8D2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A1A92C25F50B004AB8D2 /* ActivityView.swift */; };
+		B609A1AC2C25F519004AB8D2 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A1AB2C25F519004AB8D2 /* TagView.swift */; };
+		B609A1AE2C25F54D004AB8D2 /* EditActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A1AD2C25F54D004AB8D2 /* EditActivityView.swift */; };
+		B609A1B02C25F558004AB8D2 /* EditTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A1AF2C25F558004AB8D2 /* EditTagView.swift */; };
 		B6D8CE452C236AA9003CA94E /* habit_trackingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8CE442C236AA9003CA94E /* habit_trackingAppApp.swift */; };
 		B6D8CE472C236AA9003CA94E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8CE462C236AA9003CA94E /* ContentView.swift */; };
 		B6D8CE492C236AB1003CA94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D8CE482C236AB1003CA94E /* Assets.xcassets */; };
@@ -16,7 +24,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B66874B02C236FED004311FE /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		B609A19C2C25BF71004AB8D2 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		B609A19E2C25EC62004AB8D2 /* habit-trackingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "habit-trackingApp.entitlements"; sourceTree = "<group>"; };
+		B609A19F2C25ECAE004AB8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B609A1A02C25EE26004AB8D2 /* ItemsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCount.swift; sourceTree = "<group>"; };
+		B609A1A32C25EEB2004AB8D2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B609A1A52C25EF57004AB8D2 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		B609A1A72C25F38E004AB8D2 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		B609A1A92C25F50B004AB8D2 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		B609A1AB2C25F519004AB8D2 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		B609A1AD2C25F54D004AB8D2 /* EditActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditActivityView.swift; sourceTree = "<group>"; };
+		B609A1AF2C25F558004AB8D2 /* EditTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTagView.swift; sourceTree = "<group>"; };
 		B6D8CE412C236AA9003CA94E /* habit-trackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "habit-trackingApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D8CE442C236AA9003CA94E /* habit_trackingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_trackingAppApp.swift; sourceTree = "<group>"; };
 		B6D8CE462C236AA9003CA94E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B609A1A22C25EE9D004AB8D2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B609A1A72C25F38E004AB8D2 /* AppData.swift */,
+				B609A1A32C25EEB2004AB8D2 /* Extension.swift */,
+				B609A1A52C25EF57004AB8D2 /* RoundedCorners.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		B6D8CE382C236AA9003CA94E = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +83,18 @@
 		B6D8CE432C236AA9003CA94E /* habit-trackingApp */ = {
 			isa = PBXGroup;
 			children = (
+				B609A1A22C25EE9D004AB8D2 /* Helpers */,
+				B609A19F2C25ECAE004AB8D2 /* Info.plist */,
+				B609A19E2C25EC62004AB8D2 /* habit-trackingApp.entitlements */,
 				B6D8CE442C236AA9003CA94E /* habit_trackingAppApp.swift */,
 				B6D8CE462C236AA9003CA94E /* ContentView.swift */,
+				B609A1AB2C25F519004AB8D2 /* TagView.swift */,
+				B609A1AF2C25F558004AB8D2 /* EditTagView.swift */,
+				B609A1A92C25F50B004AB8D2 /* ActivityView.swift */,
+				B609A1AD2C25F54D004AB8D2 /* EditActivityView.swift */,
 				B6D8CE522C236CA1003CA94E /* Activity.swift */,
-				B66874B02C236FED004311FE /* Activities.swift */,
+				B609A19C2C25BF71004AB8D2 /* Tag.swift */,
+				B609A1A02C25EE26004AB8D2 /* ItemsCount.swift */,
 				B6D8CE482C236AB1003CA94E /* Assets.xcassets */,
 				B6D8CE4A2C236AB1003CA94E /* Preview Content */,
 			);
@@ -143,10 +179,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B66874B12C236FED004311FE /* Activities.swift in Sources */,
+				B609A1AE2C25F54D004AB8D2 /* EditActivityView.swift in Sources */,
+				B609A1B02C25F558004AB8D2 /* EditTagView.swift in Sources */,
+				B609A19D2C25BF71004AB8D2 /* Tag.swift in Sources */,
+				B609A1AC2C25F519004AB8D2 /* TagView.swift in Sources */,
 				B6D8CE472C236AA9003CA94E /* ContentView.swift in Sources */,
 				B6D8CE452C236AA9003CA94E /* habit_trackingAppApp.swift in Sources */,
+				B609A1A82C25F38E004AB8D2 /* AppData.swift in Sources */,
+				B609A1A42C25EEB2004AB8D2 /* Extension.swift in Sources */,
+				B609A1AA2C25F50B004AB8D2 /* ActivityView.swift in Sources */,
+				B609A1A12C25EE26004AB8D2 /* ItemsCount.swift in Sources */,
 				B6D8CE532C236CA1003CA94E /* Activity.swift in Sources */,
+				B609A1A62C25EF57004AB8D2 /* RoundedCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,22 +321,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "habit-trackingApp/habit-trackingApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"habit-trackingApp/Preview Content\"";
 				DEVELOPMENT_TEAM = H8ZGPE64NJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "habit-trackingApp/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Include Habit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.includesystems.habit-trackingApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -306,17 +354,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "habit-trackingApp/habit-trackingApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"habit-trackingApp/Preview Content\"";
 				DEVELOPMENT_TEAM = H8ZGPE64NJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "habit-trackingApp/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Include Habit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
